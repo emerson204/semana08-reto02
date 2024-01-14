@@ -33,7 +33,7 @@ a {
 }
 
 .contenedor {
-  max-width: 75rem;
+  max-width: 58.75rem;
   margin: 0 auto;
 }
 
@@ -147,6 +147,7 @@ a {
 /*Seccion popular*/
 .popular {
   border-bottom: 2px solid #dcdcdc;
+  overflow: hidden;
 }
 
 .popular__heading {
@@ -159,7 +160,7 @@ a {
 
 .popular__articulo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 45% 55%;
   gap: 2rem;
   margin-bottom: 2rem;
 }
